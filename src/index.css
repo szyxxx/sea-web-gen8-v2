@@ -1,0 +1,72 @@
+@import url("https://cdn.jsdelivr.net/npm/@xz/fonts@1/serve/cascadia-code.min.css");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.html {
+  scroll-behavior: smooth;
+  scroll-padding: var(--scroll-padding, 5rem)
+}
+
+.section1 {
+  background-image: 
+  radial-gradient(rgba(102, 117, 125, 0.751) 1%, transparent 3%),
+  radial-gradient(rgba(102, 117, 125, 0.751) 1%, transparent 3%);
+  background-position: 0px 0px, 51px 51px;
+  background-size: 102px 102px;
+  background-color: rgb(255, 255, 255);
+  background-image: 
+  radial-gradient(rgba(102, 117, 125, 0.317) 2%, transparent 3%),
+  radial-gradient(rgba(102, 117, 125, 0.265) 1.5%, transparent 3%);
+  background-position: 0px 0px, 51px 51px;
+  background-size: 102px 102px;
+  background-color: white;
+  height: 50vw;
+  padding-bottom: 6vw;
+}
+
+.study-card:nth-of-type(1) {
+  background: linear-gradient(88deg, rgb(56, 189, 248) 0%, rgba(132, 59, 149, 0.50) 100%);
+}
+
+.study-card:nth-of-type(2) {
+  background: linear-gradient(88deg, rgb(56, 189, 248) 0%, #407EE6 100%);
+}
+
+.study-card:nth-of-type(3) {
+  background: linear-gradient(88deg, rgb(56, 189, 248) 0%, #57A17D 100%);
+}
+
+.study-card:nth-of-type(4) {
+  background: linear-gradient(88deg, rgb(56, 189, 248) 0%, #B08756 100%);
+}
+
+.study-card:nth-of-type(5) {
+  background: linear-gradient(88deg, rgb(56, 189, 248) 0%, #9B5858 100%);
+}
+.section3 {
+  background: rgb(56, 189, 248) url('src/assets/bg-section3.png');
+  background-size: center/contain;
+  background-repeat: no-repeat;
+}
+
+.section4 {
+  background-color: rgb(56, 189, 248);
+}
+
+.login-card {
+  background-image: 
+  radial-gradient(rgba(102, 117, 125, 0.751) 1%, transparent 3%),
+  radial-gradient(rgba(102, 117, 125, 0.751) 1%, transparent 3%);
+  background-position: 0px 0px, 51px 51px;
+  background-size: 102px 102px;
+  background-color: rgb(255, 255, 255);
+  background-image: 
+  radial-gradient(rgba(102, 117, 125, 0.317) 2%, transparent 3%),
+  radial-gradient(rgba(102, 117, 125, 0.265) 1.5%, transparent 3%);
+  background-position: 0px 0px, 51px 51px;
+  background-size: 102px 102px;
+  background-color: white;
+}
