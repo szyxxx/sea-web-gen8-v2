@@ -1,5 +1,5 @@
 import React from "react";
-import { Sidebar } from "../assets/components/lms/navbar";
+import { Sidebar } from "../components/lms/navbar";
 
 function Account() {
     return (

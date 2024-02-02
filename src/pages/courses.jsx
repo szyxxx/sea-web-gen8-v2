@@ -1,6 +1,6 @@
 import React from "react";
-import { Sidebar } from "../assets/components/lms/navbar";
-import { CoursesCard } from "../assets/components/lms/courses";
+import { Sidebar } from "../components/lms/navbar";
+import { CoursesCard } from "../components/lms/courses";
 
 function Courses() {
     return (

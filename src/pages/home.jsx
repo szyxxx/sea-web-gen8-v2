@@ -1,6 +1,6 @@
 import React from "react"
-import { Section, Section1Span, Section1Button } from "../assets/components/home/section1"
-import { Section2Assistant, Section2Card, Section2StudyGroup } from "../assets/components/home/section2";
+import { Section, Section1Span, Section1Button } from "../components/home/section1"
+import { Section2Assistant, Section2Card, Section2StudyGroup } from "../components/home/section2";
 import { MdOutlineLightMode } from "react-icons/md";
 import { Link } from "react-scroll";
 import { Link as Navigate } from "react-router-dom";
@@ -11,7 +11,7 @@ const Navbar = () => {
   return (
     <nav className="navbar flex px-20 py-4 items-center fixed bg-transparent backdrop-blur-lg w-screen top-0 rounded-md">
       <div className="navbar-logo text-lg font-bold md:py-0 py-4">
-        <img src="../assets/SEAlogo.png" alt="sea-logo" className="h-12"></img>
+        <img src="src/pages/assets/icon/SEA-logo.png" alt="sea-logo" className="h-12"></img>
       </div>
       <ul className="md:px-2 ml-auto md:flex md:space-x-2 absolute md:relative top-full left-0 right-0">
       <NavbarItems index={1} items="HOME"></NavbarItems>

@@ -1,5 +1,5 @@
 import React from "react";
-import { UserInput } from "../assets/components/login/login";
+import { UserInput } from "../components/login/login";
 import { Link as Navigate } from "react-router-dom";
 import { useNavigate } from 'react-router-dom';
 
@@ -14,7 +14,7 @@ const Card = () => {
   return (
       <div className="login-card flex justify-center items-center min-h-screen">
             <div className="flex flex-col items-center w-[32vw] font-Poppins bg-white rounded-xl shadow-md p-14 gap-y-4">
-              <Navigate to="/sea-web-gen8-v2/"><img src="src\assets\SEA-logo.png" alt="SEA-logo" className="w-24"/></Navigate>
+              <Navigate to="/sea-web-gen8-v2/"><img src="src\pages\assets\icon\SEA-logo.png" alt="SEA-logo" className="w-24"/></Navigate>
               <div className="font-bold text-2xl w-full my-4">
                   Welcome To<br/>SEA Laboratory
               </div>

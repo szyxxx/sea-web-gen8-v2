@@ -63,7 +63,7 @@ const NavbarItems = (props) => {
 export const Sidebar = () => {
   return (
     <aside className="flex flex-col items-center h-screen w-24 drop-shadow-lg rounded-lg bg-white py-10 fixed">
-      <img src='src\assets\SEA-logo.png' className='px-5 my-8'/>
+      <img src='src\pages\assets\icon\SEA-logo.png' className='px-5 my-8'/>
       <div>
         <ul>
         <Navigate to="/sea-web-gen8-v2/dashboard"><NavbarItems icon="dashboard" /></Navigate>

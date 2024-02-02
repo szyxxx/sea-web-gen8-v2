@@ -1,6 +1,6 @@
 import React from 'react';
-import { Sidebar } from '../assets/components/lms/navbar';
-import { ButtonSort } from '../assets/components/lms/dashboard';
+import { Sidebar } from '../components/lms/navbar';
+import { ButtonSort } from '../components/lms/dashboard';
 import { MdOutlineAccessTimeFilled } from 'react-icons/md';
 
 function Dashboard() {
@@ -34,7 +34,7 @@ function Dashboard() {
             </a>
           </div>
           <div className='flex flex-col justify-center items-center'>
-            <img className="w-28" src='src\assets\NoActivities_vector.png' alt='No Activities' />
+            <img className="w-28" src='src\pages\assets\icon\NoActivities_vector.png' alt='No Activities' />
             <span className='font-semibold'>No activities required action</span>
           </div>
         </div>
