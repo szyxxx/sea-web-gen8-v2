@@ -8,13 +8,13 @@ const Card = () => {
   const navigate = useNavigate();
 
   const handleLoginClick = () => {
-    navigate('/dashboard');
+    navigate('/sea-web-gen8-v2/dashboard');
   };
 
   return (
       <div className="login-card flex justify-center items-center min-h-screen">
             <div className="flex flex-col items-center w-[32vw] font-Poppins bg-white rounded-xl shadow-md p-14 gap-y-4">
-              <Navigate to="/"><img src="src\assets\SEA-logo.png" alt="SEA-logo" className="w-24"/></Navigate>
+              <Navigate to="/sea-web-gen8-v2/"><img src="src\assets\SEA-logo.png" alt="SEA-logo" className="w-24"/></Navigate>
               <div className="font-bold text-2xl w-full my-4">
                   Welcome To<br/>SEA Laboratory
               </div>

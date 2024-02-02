@@ -12,15 +12,15 @@ const NavbarItems = (props) => {
     let color = 'black';
     let bg = '';
 
-    if (path.includes('/dashboard') && props.icon === 'dashboard') {
+    if (path.includes('/sea-web-gen8-v2/dashboard') && props.icon === 'dashboard') {
       console.log('dashboard case');
       color = 'white';
       bg = 'bg-sky-400';
-    } else if (path.includes('/courses') && props.icon === 'courses') {
+    } else if (path.includes('/sea-web-gen8-v2/courses') && props.icon === 'courses') {
       console.log('courses case');
       color = 'white';
       bg = 'bg-sky-400';
-    } else if (path.includes('/account') && props.icon === 'account') {
+    } else if (path.includes('/sea-web-gen8-v2/account') && props.icon === 'account') {
       console.log('account case');
       color = 'white';
       bg = 'bg-sky-400';
@@ -66,12 +66,12 @@ export const Sidebar = () => {
       <img src='src\assets\SEA-logo.png' className='px-5 my-8'/>
       <div>
         <ul>
-        <Navigate to="/dashboard"><NavbarItems icon="dashboard" /></Navigate>
-        <Navigate to="/courses"><NavbarItems icon="courses" /></Navigate>
-        <Navigate to="/account"><NavbarItems icon="account" /></Navigate>
+        <Navigate to="/sea-web-gen8-v2/dashboard"><NavbarItems icon="dashboard" /></Navigate>
+        <Navigate to="/sea-web-gen8-v2/courses"><NavbarItems icon="courses" /></Navigate>
+        <Navigate to="/sea-web-gen8-v2/account"><NavbarItems icon="account" /></Navigate>
         </ul>
       </div>
-      <Navigate to="/login"><NavbarItems icon="logout" color="black"></NavbarItems></Navigate>
+      <Navigate to="/sea-web-gen8-v2/login"><NavbarItems icon="logout" color="black"></NavbarItems></Navigate>
     </aside>
   )
 }

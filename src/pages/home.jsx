@@ -48,7 +48,7 @@ const Section1 = () => {
           <Section1Span color="text-sky-400" text="SEA LABORATORY"></Section1Span>
         </div>
         <div className="flex gap-x-10 py-3">
-          <Navigate to="/login" smooth={true} duration={500}><Section1Button border="border-sky-400" bg="bg-sky-400" textcolor="text-white" text="LOGIN" height="h-16" width="w-36"></Section1Button></Navigate>
+          <Navigate to="/sea-web-gen8-v2/login" smooth={true} duration={500}><Section1Button border="border-sky-400" bg="bg-sky-400" textcolor="text-white" text="LOGIN" height="h-16" width="w-36"></Section1Button></Navigate>
           <Link to="section2" smooth={true} duration={500}> <Section1Button border="border-sky-400" bg="bg-transparent" textcolor="text-black" text="EXPLORE" height="h-16" width="w-36"></Section1Button></Link>
         </div>
     </Section>
