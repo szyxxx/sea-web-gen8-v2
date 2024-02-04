@@ -144,9 +144,9 @@ const Section5 = () => {
       <div className="flex flex-col items-start text-left gap-y-3">
       <span className="font-bold text-xl">FOLLOW US</span>
         <div className="flex flex-row items-start text-left gap-x-3">
-          <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=748waapd"><img src="src\assets\line_icon.png" className="h-10"/></a>
-          <a href="https://www.instagram.com/sea.laboratory/"><img src="src\assets\instagram_icon.png"  className="h-10"/></a>
-          <a href="https://www.youtube.com/@SEALaboratory"><img src="src\assets\youtube_icon.png"  className="h-10"/></a>
+          <a href="https://liff.line.me/1645278921-kWRPP32q/?accountId=748waapd"><img src="./src/pages/assets/icon/line_icon.png" className="h-10"/></a>
+          <a href="https://www.instagram.com/sea.laboratory/"><img src="./src/pages/assets/icon/instagram_icon.png"  className="h-10"/></a>
+          <a href="https://www.youtube.com/@SEALaboratory"><img src="./src/pages/assets/icon/youtube_icon.png"  className="h-10"/></a>
         </div>
       </div>
     </footer>
